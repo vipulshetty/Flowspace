@@ -1,0 +1,3182 @@
+{
+  "spawnpoint": {
+    "roomIndex": 0,
+    "x": 22,
+    "y": 15
+  },
+  "rooms": [
+    {
+      "name": "SkyOffice Main Floor",
+      "tilemap": {
+        "19, 1": {
+          "floor": "floorandground:tile_28"
+        },
+        "20, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "21, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "22, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "23, 1": {
+          "floor": "floorandground:tile_593",
+          "above_floor": "modern_office:tile_203"
+        },
+        "24, 1": {
+          "floor": "floorandground:tile_593",
+          "above_floor": "modern_office:tile_204"
+        },
+        "25, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "26, 1": {
+          "floor": "floorandground:tile_593",
+          "impassable": true
+        },
+        "27, 1": {
+          "floor": "floorandground:tile_593",
+          "impassable": true
+        },
+        "28, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "29, 1": {
+          "floor": "floorandground:tile_593",
+          "above_floor": "generic_office:tile_698"
+        },
+        "30, 1": {
+          "floor": "floorandground:tile_593",
+          "above_floor": "generic_office:tile_699"
+        },
+        "31, 1": {
+          "floor": "floorandground:tile_593"
+        },
+        "32, 1": {
+          "floor": "floorandground:tile_593",
+          "above_floor": "modern_office:tile_118"
+        },
+        "33, 1": {
+          "floor": "floorandground:tile_89"
+        },
+        "19, 2": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "21, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "22, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "23, 2": {
+          "floor": "floorandground:tile_657",
+          "above_floor": "generic_office:tile_1015"
+        },
+        "24, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "25, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "26, 2": {
+          "floor": "floorandground:tile_657",
+          "object": "sky_whiteboard:tile_1",
+          "impassable": true
+        },
+        "27, 2": {
+          "floor": "floorandground:tile_657",
+          "impassable": true
+        },
+        "28, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "29, 2": {
+          "floor": "floorandground:tile_657",
+          "above_floor": "generic_office:tile_714"
+        },
+        "30, 2": {
+          "floor": "floorandground:tile_657",
+          "above_floor": "generic_office:tile_715"
+        },
+        "31, 2": {
+          "floor": "floorandground:tile_657"
+        },
+        "32, 2": {
+          "floor": "floorandground:tile_657",
+          "above_floor": "modern_office:tile_134"
+        },
+        "33, 2": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 3": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 3": {
+          "floor": "floorandground:tile_602",
+          "above_floor": "sky_chair:tile_19",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "21, 3": {
+          "floor": "floorandground:tile_603",
+          "above_floor": "sky_chair:tile_20",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "22, 3": {
+          "floor": "floorandground:tile_603",
+          "above_floor": "sky_chair:tile_21",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "23, 3": {
+          "floor": "floorandground:tile_603",
+          "object": "generic_office:tile_1031",
+          "impassable": true
+        },
+        "24, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "25, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "26, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "27, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "28, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "29, 3": {
+          "floor": "floorandground:tile_603",
+          "object": "modern_office:tile_742",
+          "impassable": true,
+          "above_floor": "generic_office:tile_1028"
+        },
+        "30, 3": {
+          "floor": "floorandground:tile_603",
+          "object": "modern_office:tile_743",
+          "impassable": true
+        },
+        "31, 3": {
+          "floor": "floorandground:tile_603"
+        },
+        "32, 3": {
+          "floor": "floorandground:tile_603",
+          "object": "modern_office:tile_150",
+          "impassable": true
+        },
+        "33, 3": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 4": {
+          "floor": "floorandground:tile_87"
+        },
+        "6, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "7, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "8, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "9, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "10, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "11, 4": {
+          "floor": "floorandground:tile_545",
+          "impassable": true
+        },
+        "12, 4": {
+          "floor": "floorandground:tile_545",
+          "impassable": true
+        },
+        "13, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "14, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "15, 4": {
+          "floor": "floorandground:tile_545",
+          "above_floor": "generic_office:tile_212"
+        },
+        "16, 4": {
+          "floor": "floorandground:tile_545",
+          "above_floor": "generic_office:tile_213"
+        },
+        "17, 4": {
+          "floor": "floorandground:tile_545"
+        },
+        "18, 4": {
+          "floor": "floorandground:tile_545",
+          "above_floor": "modern_office:tile_252"
+        },
+        "19, 4": {
+          "floor": "floorandground:tile_91",
+          "object": "modern_office:tile_334",
+          "impassable": true
+        },
+        "20, 4": {
+          "floor": "floorandground:tile_666",
+          "object": "modern_office:tile_335",
+          "impassable": true
+        },
+        "21, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "22, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "23, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "24, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "25, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "26, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "27, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "28, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "29, 4": {
+          "floor": "floorandground:tile_667",
+          "object": "modern_office:tile_756",
+          "impassable": true
+        },
+        "30, 4": {
+          "floor": "floorandground:tile_667",
+          "above_floor": "modern_office:tile_759"
+        },
+        "31, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "32, 4": {
+          "floor": "floorandground:tile_667"
+        },
+        "33, 4": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 5": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "7, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "8, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "9, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "10, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "11, 5": {
+          "floor": "floorandground:tile_609",
+          "object": "sky_vending:tile_0",
+          "impassable": true
+        },
+        "12, 5": {
+          "floor": "floorandground:tile_609",
+          "impassable": true
+        },
+        "13, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "14, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "15, 5": {
+          "floor": "floorandground:tile_609",
+          "above_floor": "generic_office:tile_228"
+        },
+        "16, 5": {
+          "floor": "floorandground:tile_609",
+          "above_floor": "generic_office:tile_229"
+        },
+        "17, 5": {
+          "floor": "floorandground:tile_609"
+        },
+        "18, 5": {
+          "floor": "floorandground:tile_609",
+          "above_floor": "modern_office:tile_268"
+        },
+        "19, 5": {
+          "floor": "floorandground:tile_91",
+          "object": "modern_office:tile_350",
+          "impassable": true
+        },
+        "20, 5": {
+          "floor": "floorandground:tile_666",
+          "object": "modern_office:tile_351",
+          "impassable": true
+        },
+        "21, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "22, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "23, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "24, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "25, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "26, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "27, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "28, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "29, 5": {
+          "floor": "floorandground:tile_667",
+          "object": "modern_office:tile_757",
+          "impassable": true
+        },
+        "30, 5": {
+          "floor": "floorandground:tile_667",
+          "above_floor": "sky_chair:tile_8",
+          "interaction": {
+            "type": "chair",
+            "direction": "left"
+          },
+          "object": "modern_office:tile_758"
+        },
+        "31, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "32, 5": {
+          "floor": "floorandground:tile_667"
+        },
+        "33, 5": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 6": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "7, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "8, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "9, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "10, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "11, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "12, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "13, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "14, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "15, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "16, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "17, 6": {
+          "floor": "floorandground:tile_1606"
+        },
+        "18, 6": {
+          "floor": "floorandground:tile_1606",
+          "object": "modern_office:tile_284",
+          "impassable": true
+        },
+        "19, 6": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 6": {
+          "floor": "floorandground:tile_666"
+        },
+        "21, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "22, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "23, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "24, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "25, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "26, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "27, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "28, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "29, 6": {
+          "floor": "floorandground:tile_667",
+          "object": "modern_office:tile_773",
+          "impassable": true
+        },
+        "30, 6": {
+          "floor": "floorandground:tile_667",
+          "object": "modern_office:tile_774",
+          "impassable": true
+        },
+        "31, 6": {
+          "floor": "floorandground:tile_667"
+        },
+        "32, 6": {
+          "floor": "floorandground:tile_667",
+          "above_floor": "modern_office:tile_118"
+        },
+        "33, 6": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 7": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 7": {
+          "floor": "floorandground:tile_1606"
+        },
+        "7, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_404",
+          "impassable": true
+        },
+        "8, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_405",
+          "impassable": true
+        },
+        "9, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_406",
+          "impassable": true
+        },
+        "10, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_407",
+          "impassable": true
+        },
+        "11, 7": {
+          "floor": "floorandground:tile_1606"
+        },
+        "12, 7": {
+          "floor": "floorandground:tile_1606"
+        },
+        "13, 7": {
+          "floor": "floorandground:tile_1606"
+        },
+        "14, 7": {
+          "floor": "floorandground:tile_1606",
+          "above_floor": "sky_chair:tile_22",
+          "interaction": {
+            "type": "chair",
+            "direction": "right"
+          }
+        },
+        "15, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_349",
+          "impassable": true,
+          "above_floor": "basement:tile_373"
+        },
+        "16, 7": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_350",
+          "impassable": true,
+          "above_floor": "basement:tile_374"
+        },
+        "17, 7": {
+          "floor": "floorandground:tile_1606",
+          "above_floor": "sky_chair:tile_22",
+          "interaction": {
+            "type": "chair",
+            "direction": "left"
+          }
+        },
+        "18, 7": {
+          "floor": "floorandground:tile_1606"
+        },
+        "19, 7": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 7": {
+          "floor": "floorandground:tile_666"
+        },
+        "21, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "22, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "23, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "24, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "25, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "26, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "27, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "28, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "29, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "30, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "31, 7": {
+          "floor": "floorandground:tile_667"
+        },
+        "32, 7": {
+          "floor": "floorandground:tile_667",
+          "above_floor": "modern_office:tile_134"
+        },
+        "33, 7": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 8": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "7, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_420",
+          "impassable": true
+        },
+        "8, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_421",
+          "impassable": true,
+          "above_floor": "basement:tile_417"
+        },
+        "9, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_422",
+          "impassable": true
+        },
+        "10, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_423",
+          "impassable": true
+        },
+        "11, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "12, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "13, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "14, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "15, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_367",
+          "impassable": true,
+          "above_floor": "basement:tile_389"
+        },
+        "16, 8": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_351",
+          "impassable": true,
+          "above_floor": "basement:tile_390"
+        },
+        "17, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "18, 8": {
+          "floor": "floorandground:tile_1606"
+        },
+        "19, 8": {
+          "floor": "floorandground:tile_91"
+        },
+        "21, 8": {
+          "floor": "floorandground:tile_667"
+        },
+        "23, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_193"
+        },
+        "24, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_27",
+          "impassable": true
+        },
+        "25, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_252"
+        },
+        "26, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_187"
+        },
+        "27, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_188"
+        },
+        "28, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "29, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "30, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "31, 8": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_168"
+        },
+        "33, 8": {
+          "floor": "floorandground:tile_721",
+          "above_floor": "modern_office:tile_200"
+        },
+        "34, 8": {
+          "floor": "floorandground:tile_721",
+          "above_floor": "modern_office:tile_15"
+        },
+        "35, 8": {
+          "floor": "floorandground:tile_721"
+        },
+        "36, 8": {
+          "floor": "floorandground:tile_721",
+          "above_floor": "generic_office:tile_698"
+        },
+        "37, 8": {
+          "floor": "floorandground:tile_721",
+          "above_floor": "generic_office:tile_699"
+        },
+        "38, 8": {
+          "floor": "floorandground:tile_721"
+        },
+        "39, 8": {
+          "floor": "floorandground:tile_89"
+        },
+        "5, 9": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 9": {
+          "floor": "floorandground:tile_1606"
+        },
+        "7, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_436",
+          "impassable": true
+        },
+        "8, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_437",
+          "impassable": true
+        },
+        "9, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_438",
+          "impassable": true
+        },
+        "10, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_439",
+          "impassable": true
+        },
+        "11, 9": {
+          "floor": "floorandground:tile_1606"
+        },
+        "12, 9": {
+          "floor": "floorandground:tile_1606"
+        },
+        "13, 9": {
+          "floor": "floorandground:tile_1606"
+        },
+        "14, 9": {
+          "floor": "floorandground:tile_1606",
+          "above_floor": "sky_chair:tile_22",
+          "interaction": {
+            "type": "chair",
+            "direction": "right"
+          }
+        },
+        "15, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_365",
+          "impassable": true
+        },
+        "16, 9": {
+          "floor": "floorandground:tile_1606",
+          "object": "basement:tile_366",
+          "impassable": true
+        },
+        "17, 9": {
+          "floor": "floorandground:tile_1606",
+          "above_floor": "sky_chair:tile_22",
+          "interaction": {
+            "type": "chair",
+            "direction": "left"
+          }
+        },
+        "18, 9": {
+          "floor": "floorandground:tile_1606"
+        },
+        "19, 9": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 9": {
+          "floor": "floorandground:tile_786",
+          "above_floor": "modern_office:tile_183"
+        },
+        "21, 9": {
+          "floor": "floorandground:tile_413"
+        },
+        "22, 9": {
+          "floor": "floorandground:tile_784",
+          "above_floor": "modern_office:tile_208"
+        },
+        "23, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_209"
+        },
+        "24, 9": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_268"
+        },
+        "26, 9": {
+          "floor": "floorandground:tile_785"
+        },
+        "27, 9": {
+          "floor": "floorandground:tile_785"
+        },
+        "28, 9": {
+          "floor": "floorandground:tile_785"
+        },
+        "29, 9": {
+          "floor": "floorandground:tile_785",
+          "object": "sky_whiteboard:tile_0",
+          "impassable": true
+        },
+        "30, 9": {
+          "floor": "floorandground:tile_785",
+          "impassable": true
+        },
+        "31, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_184"
+        },
+        "32, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_215"
+        },
+        "33, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_216"
+        },
+        "34, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_31"
+        },
+        "35, 9": {
+          "floor": "floorandground:tile_785"
+        },
+        "36, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "generic_office:tile_714"
+        },
+        "37, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "generic_office:tile_715"
+        },
+        "38, 9": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_166"
+        },
+        "39, 9": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 10": {
+          "floor": "floorandground:tile_151"
+        },
+        "7, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "8, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "9, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "10, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_198"
+        },
+        "12, 10": {
+          "floor": "floorandground:tile_1606"
+        },
+        "14, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_198"
+        },
+        "15, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "16, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "17, 10": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "19, 10": {
+          "floor": "floorandground:tile_722"
+        },
+        "20, 10": {
+          "floor": "floorandground:tile_349"
+        },
+        "21, 10": {
+          "floor": "floorandground:tile_351"
+        },
+        "22, 10": {
+          "floor": "floorandground:tile_350"
+        },
+        "23, 10": {
+          "floor": "floorandground:tile_350"
+        },
+        "24, 10": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 10": {
+          "floor": "floorandground:tile_346",
+          "object": "modern_office:tile_284",
+          "impassable": true
+        },
+        "26, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "27, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "28, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "29, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "30, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "31, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "32, 10": {
+          "floor": "floorandground:tile_347",
+          "object": "modern_office:tile_231",
+          "impassable": true
+        },
+        "33, 10": {
+          "floor": "floorandground:tile_347",
+          "object": "modern_office:tile_232",
+          "impassable": true
+        },
+        "34, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "35, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "36, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "37, 10": {
+          "floor": "floorandground:tile_347"
+        },
+        "38, 10": {
+          "floor": "floorandground:tile_347",
+          "object": "modern_office:tile_182",
+          "impassable": true
+        },
+        "39, 10": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 11": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 11": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_214"
+        },
+        "7, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "8, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "9, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "10, 11": {
+          "floor": "floorandground:tile_785",
+          "above_floor": "modern_office:tile_214"
+        },
+        "11, 11": {
+          "floor": "floorandground:tile_786"
+        },
+        "12, 11": {
+          "floor": "floorandground:tile_413"
+        },
+        "13, 11": {
+          "floor": "floorandground:tile_784"
+        },
+        "14, 11": {
+          "floor": "floorandground:tile_792",
+          "above_floor": "modern_office:tile_214"
+        },
+        "15, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "16, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "17, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "18, 11": {
+          "floor": "floorandground:tile_792"
+        },
+        "19, 11": {
+          "floor": "floorandground:tile_793"
+        },
+        "20, 11": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 11": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 11": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 11": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 11": {
+          "floor": "floorandground:tile_723"
+        },
+        "25, 11": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 11": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 11": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 12": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 12": {
+          "floor": "floorandground:tile_350",
+          "object": "modern_office:tile_230",
+          "impassable": true
+        },
+        "7, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_13",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "8, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_13",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "9, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_13",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "10, 12": {
+          "floor": "floorandground:tile_350",
+          "object": "modern_office:tile_230",
+          "impassable": true
+        },
+        "11, 12": {
+          "floor": "floorandground:tile_350"
+        },
+        "12, 12": {
+          "floor": "floorandground:tile_351"
+        },
+        "13, 12": {
+          "floor": "floorandground:tile_350"
+        },
+        "14, 12": {
+          "floor": "floorandground:tile_350",
+          "object": "modern_office:tile_230",
+          "impassable": true
+        },
+        "15, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_12",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "16, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_12",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "17, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_12",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "18, 12": {
+          "floor": "floorandground:tile_350",
+          "above_floor": "sky_chair:tile_12",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          }
+        },
+        "19, 12": {
+          "floor": "floorandground:tile_350"
+        },
+        "20, 12": {
+          "floor": "floorandground:tile_351"
+        },
+        "21, 12": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 12": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 12": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 12": {
+          "floor": "floorandground:tile_787"
+        },
+        "25, 12": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 12": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 12": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 13": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "7, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "8, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "9, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "10, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "11, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "12, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "13, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "14, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "15, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "16, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "17, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "18, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "19, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "20, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "21, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 13": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 13": {
+          "floor": "floorandground:tile_347"
+        },
+        "25, 13": {
+          "floor": "floorandground:tile_348"
+        },
+        "26, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 13": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 13": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 14": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "7, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "8, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "9, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "10, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "11, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "12, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "13, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "14, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "15, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "16, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "17, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "18, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "19, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "20, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "21, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 14": {
+          "floor": "floorandground:tile_414"
+        },
+        "25, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "26, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_416"
+        },
+        "30, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 14": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_419"
+        },
+        "33, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_1"
+        },
+        "34, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_7",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_2"
+        },
+        "35, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_3",
+          "object": "modern_office:tile_419"
+        },
+        "36, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_1",
+          "object": "modern_office:tile_251"
+        },
+        "37, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_7",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_2"
+        },
+        "38, 14": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_3"
+        },
+        "39, 14": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 15": {
+          "floor": "floorandground:tile_151"
+        },
+        "7, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true,
+          "above_floor": "modern_office:tile_248"
+        },
+        "8, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "9, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "10, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "12, 15": {
+          "floor": "floorandground:tile_414"
+        },
+        "14, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "15, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "16, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "17, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "18, 15": {
+          "floor": "floorandground:tile_0",
+          "object": "floorandground:tile_929",
+          "impassable": true
+        },
+        "20, 15": {
+          "floor": "floorandground:tile_414"
+        },
+        "21, 15": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 15": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 15": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 15": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 15": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 15": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 15": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 15": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 15": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_432"
+        },
+        "30, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_433",
+          "impassable": true,
+          "above_floor": "modern_office:tile_455"
+        },
+        "31, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_434",
+          "impassable": true,
+          "above_floor": "modern_office:tile_456"
+        },
+        "32, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_435",
+          "impassable": true,
+          "above_floor": "modern_office:tile_457"
+        },
+        "33, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_33",
+          "impassable": true,
+          "above_floor": "modern_office:tile_433"
+        },
+        "34, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_34",
+          "impassable": true,
+          "above_floor": "modern_office:tile_434"
+        },
+        "35, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_35",
+          "impassable": true,
+          "above_floor": "modern_office:tile_435"
+        },
+        "36, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_33",
+          "impassable": true,
+          "above_floor": "modern_office:tile_436"
+        },
+        "37, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_34",
+          "impassable": true,
+          "above_floor": "modern_office:tile_437"
+        },
+        "38, 15": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_35",
+          "impassable": true,
+          "above_floor": "modern_office:tile_437"
+        },
+        "39, 15": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 16": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 16": {
+          "floor": "floorandground:tile_993",
+          "above_floor": "modern_office:tile_263"
+        },
+        "7, 16": {
+          "floor": "floorandground:tile_993",
+          "above_floor": "modern_office:tile_264"
+        },
+        "8, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "9, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "10, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "11, 16": {
+          "floor": "floorandground:tile_994"
+        },
+        "12, 16": {
+          "floor": "floorandground:tile_2381"
+        },
+        "13, 16": {
+          "floor": "floorandground:tile_992"
+        },
+        "14, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "15, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "16, 16": {
+          "floor": "floorandground:tile_993",
+          "object": "sky_whiteboard:tile_2",
+          "impassable": true
+        },
+        "17, 16": {
+          "floor": "floorandground:tile_993",
+          "impassable": true
+        },
+        "18, 16": {
+          "floor": "floorandground:tile_993"
+        },
+        "19, 16": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 16": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 16": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 16": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 16": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 16": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 16": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 16": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 16": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 16": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 16": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_448"
+        },
+        "30, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_449",
+          "impassable": true,
+          "above_floor": "modern_office:tile_471",
+          "interaction": {
+            "type": "computer",
+            "direction": "up"
+          }
+        },
+        "31, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_450",
+          "impassable": true,
+          "above_floor": "modern_office:tile_472"
+        },
+        "32, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_451",
+          "impassable": true,
+          "above_floor": "modern_office:tile_473"
+        },
+        "33, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_449",
+          "impassable": true,
+          "above_floor": "modern_office:tile_471",
+          "interaction": {
+            "type": "computer",
+            "direction": "up"
+          }
+        },
+        "34, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_450",
+          "impassable": true,
+          "above_floor": "modern_office:tile_472"
+        },
+        "35, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_451",
+          "impassable": true,
+          "above_floor": "modern_office:tile_473"
+        },
+        "36, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_452",
+          "impassable": true,
+          "above_floor": "modern_office:tile_38",
+          "interaction": {
+            "type": "computer",
+            "direction": "up"
+          }
+        },
+        "37, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_453",
+          "impassable": true,
+          "above_floor": "modern_office:tile_39"
+        },
+        "38, 16": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_453",
+          "impassable": true,
+          "above_floor": "modern_office:tile_40"
+        },
+        "39, 16": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 17": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 17": {
+          "floor": "floorandground:tile_2318",
+          "object": "modern_office:tile_279",
+          "impassable": true
+        },
+        "7, 17": {
+          "floor": "floorandground:tile_2318",
+          "object": "modern_office:tile_280",
+          "impassable": true
+        },
+        "8, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "9, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "10, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "11, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "12, 17": {
+          "floor": "floorandground:tile_2319"
+        },
+        "13, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "14, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "15, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "16, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "17, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "18, 17": {
+          "floor": "floorandground:tile_2318"
+        },
+        "19, 17": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 17": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 17": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 17": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 17": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 17": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 17": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 17": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_11",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "32, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 17": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_11",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "35, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 17": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_11",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "38, 17": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 17": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 18": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "9, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "10, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "11, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "12, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "13, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "14, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "15, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "16, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "17, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 18": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 18": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 18": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 18": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 18": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 18": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 18": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 18": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 18": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 18": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 19": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "9, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "modern_office:tile_11"
+        },
+        "10, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_12"
+        },
+        "11, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "modern_office:tile_12"
+        },
+        "12, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_12"
+        },
+        "13, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "modern_office:tile_12"
+        },
+        "14, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_12"
+        },
+        "15, 19": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "modern_office:tile_13"
+        },
+        "16, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "17, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 19": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 19": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 19": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 19": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 19": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 19": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 19": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 19": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 19": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 19": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 20": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "9, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_27",
+          "impassable": true
+        },
+        "10, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_28",
+          "impassable": true
+        },
+        "11, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_28",
+          "impassable": true
+        },
+        "12, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_28",
+          "impassable": true
+        },
+        "13, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_28",
+          "impassable": true
+        },
+        "14, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_28",
+          "impassable": true
+        },
+        "15, 20": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_29",
+          "impassable": true
+        },
+        "16, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "17, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 20": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 20": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 20": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 20": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 20": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 20": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 20": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 20": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 20": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 20": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 21": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 21": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 21": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 21": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_3",
+          "interaction": {
+            "type": "chair",
+            "direction": "right"
+          }
+        },
+        "9, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_43",
+          "impassable": true
+        },
+        "10, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_44",
+          "impassable": true
+        },
+        "11, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_44",
+          "impassable": true
+        },
+        "12, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_44",
+          "impassable": true
+        },
+        "13, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_44",
+          "impassable": true
+        },
+        "14, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_44",
+          "impassable": true
+        },
+        "15, 21": {
+          "floor": "floorandground:tile_2382",
+          "object": "modern_office:tile_45",
+          "impassable": true
+        },
+        "16, 21": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_2",
+          "interaction": {
+            "type": "chair",
+            "direction": "left"
+          }
+        },
+        "17, 21": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 21": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 21": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 21": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 21": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 21": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 21": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 21": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 21": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 21": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 21": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 22": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "9, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "10, 22": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_5",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "11, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "12, 22": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_5",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "13, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "14, 22": {
+          "floor": "floorandground:tile_2382",
+          "above_floor": "sky_chair:tile_5",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "15, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "16, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "17, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 22": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 22": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 22": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 22": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 22": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 22": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 22": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 22": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 22": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 22": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 22": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_416"
+        },
+        "30, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_481",
+          "object": "modern_office:tile_493"
+        },
+        "31, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_482"
+        },
+        "32, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_483",
+          "object": "modern_office:tile_419"
+        },
+        "33, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_481"
+        },
+        "34, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_482"
+        },
+        "35, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_483",
+          "object": "modern_office:tile_419"
+        },
+        "36, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_481"
+        },
+        "37, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_1",
+          "interaction": {
+            "type": "chair",
+            "direction": "down"
+          },
+          "object": "modern_office:tile_482"
+        },
+        "38, 22": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_483",
+          "object": "modern_office:tile_527"
+        },
+        "39, 22": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 23": {
+          "floor": "floorandground:tile_151"
+        },
+        "6, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "7, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "8, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "9, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "10, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "11, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "12, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "13, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "14, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "15, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "16, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "17, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "18, 23": {
+          "floor": "floorandground:tile_2382"
+        },
+        "19, 23": {
+          "floor": "floorandground:tile_91"
+        },
+        "20, 23": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 23": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 23": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 23": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 23": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 23": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 23": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 23": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 23": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 23": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_432"
+        },
+        "30, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_497",
+          "impassable": true,
+          "above_floor": "modern_office:tile_433"
+        },
+        "31, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_498",
+          "impassable": true,
+          "above_floor": "modern_office:tile_434"
+        },
+        "32, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_499",
+          "impassable": true,
+          "above_floor": "modern_office:tile_435"
+        },
+        "33, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_497",
+          "impassable": true,
+          "above_floor": "modern_office:tile_433"
+        },
+        "34, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_498",
+          "impassable": true,
+          "above_floor": "modern_office:tile_434"
+        },
+        "35, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_499",
+          "impassable": true,
+          "above_floor": "modern_office:tile_435"
+        },
+        "36, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_497",
+          "impassable": true,
+          "above_floor": "modern_office:tile_436"
+        },
+        "37, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_498",
+          "impassable": true,
+          "above_floor": "modern_office:tile_437"
+        },
+        "38, 23": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_499",
+          "impassable": true,
+          "above_floor": "modern_office:tile_437"
+        },
+        "39, 23": {
+          "floor": "floorandground:tile_153"
+        },
+        "5, 24": {
+          "floor": "floorandground:tile_215"
+        },
+        "6, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "7, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "8, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "9, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "10, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "11, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "12, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "13, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "14, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "15, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "16, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "17, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "18, 24": {
+          "floor": "floorandground:tile_216"
+        },
+        "19, 24": {
+          "floor": "floorandground:tile_212"
+        },
+        "20, 24": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 24": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 24": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 24": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 24": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 24": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 24": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 24": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 24": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 24": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_448"
+        },
+        "30, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_449",
+          "impassable": true,
+          "above_floor": "modern_office:tile_474",
+          "interaction": {
+            "type": "computer",
+            "direction": "up"
+          }
+        },
+        "31, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_450",
+          "impassable": true,
+          "above_floor": "modern_office:tile_475"
+        },
+        "32, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_451",
+          "impassable": true,
+          "above_floor": "modern_office:tile_476"
+        },
+        "33, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_449",
+          "impassable": true
+        },
+        "34, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_450",
+          "impassable": true
+        },
+        "35, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_451",
+          "impassable": true
+        },
+        "36, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_452",
+          "impassable": true,
+          "above_floor": "modern_office:tile_474",
+          "interaction": {
+            "type": "computer",
+            "direction": "up"
+          }
+        },
+        "37, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_453",
+          "impassable": true,
+          "above_floor": "modern_office:tile_475"
+        },
+        "38, 24": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_453",
+          "impassable": true,
+          "above_floor": "modern_office:tile_476"
+        },
+        "39, 24": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 25": {
+          "floor": "floorandground:tile_151"
+        },
+        "20, 25": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 25": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 25": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 25": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 25": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 25": {
+          "floor": "floorandground:tile_410"
+        },
+        "26, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "27, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 25": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_5",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "32, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 25": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "sky_chair:tile_5",
+          "interaction": {
+            "type": "chair",
+            "direction": "up"
+          }
+        },
+        "38, 25": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 25": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 26": {
+          "floor": "floorandground:tile_151"
+        },
+        "20, 26": {
+          "floor": "floorandground:tile_413"
+        },
+        "21, 26": {
+          "floor": "floorandground:tile_414"
+        },
+        "22, 26": {
+          "floor": "floorandground:tile_414"
+        },
+        "23, 26": {
+          "floor": "floorandground:tile_414"
+        },
+        "24, 26": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 26": {
+          "floor": "floorandground:tile_410",
+          "above_floor": "modern_office:tile_296"
+        },
+        "26, 26": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_297"
+        },
+        "27, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 26": {
+          "floor": "floorandground:tile_411"
+        },
+        "39, 26": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 27": {
+          "floor": "floorandground:tile_151"
+        },
+        "20, 27": {
+          "floor": "floorandground:tile_0"
+        },
+        "21, 27": {
+          "floor": "floorandground:tile_0"
+        },
+        "22, 27": {
+          "floor": "floorandground:tile_0"
+        },
+        "23, 27": {
+          "floor": "floorandground:tile_0"
+        },
+        "24, 27": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 27": {
+          "floor": "floorandground:tile_410",
+          "above_floor": "modern_office:tile_294",
+          "object": "modern_office:tile_312",
+          "impassable": true
+        },
+        "26, 27": {
+          "floor": "floorandground:tile_411",
+          "above_floor": "modern_office:tile_295",
+          "object": "modern_office:tile_313",
+          "impassable": true
+        },
+        "27, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "37, 27": {
+          "floor": "floorandground:tile_411"
+        },
+        "38, 27": {
+          "floor": "floorandground:tile_411",
+          "object": "generic_office:tile_956",
+          "impassable": true
+        },
+        "39, 27": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 28": {
+          "floor": "floorandground:tile_151"
+        },
+        "20, 28": {
+          "floor": "floorandground:tile_64"
+        },
+        "21, 28": {
+          "floor": "floorandground:tile_64"
+        },
+        "22, 28": {
+          "floor": "floorandground:tile_64"
+        },
+        "23, 28": {
+          "floor": "floorandground:tile_64"
+        },
+        "24, 28": {
+          "floor": "floorandground:tile_91"
+        },
+        "25, 28": {
+          "floor": "floorandground:tile_410",
+          "object": "modern_office:tile_310",
+          "impassable": true
+        },
+        "26, 28": {
+          "floor": "floorandground:tile_411",
+          "object": "modern_office:tile_311",
+          "impassable": true
+        },
+        "27, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "28, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "29, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "30, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "31, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "32, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "33, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "34, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "35, 28": {
+          "floor": "floorandground:tile_411"
+        },
+        "36, 28": {
+          "floor": "floorandground:tile_411",
+          "object": "generic_office:tile_957",
+          "impassable": true
+        },
+        "37, 28": {
+          "floor": "floorandground:tile_411",
+          "object": "generic_office:tile_973",
+          "impassable": true
+        },
+        "38, 28": {
+          "floor": "floorandground:tile_411",
+          "object": "generic_office:tile_972",
+          "impassable": true
+        },
+        "39, 28": {
+          "floor": "floorandground:tile_153"
+        },
+        "19, 29": {
+          "floor": "floorandground:tile_215"
+        },
+        "24, 29": {
+          "floor": "floorandground:tile_84"
+        },
+        "25, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "26, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "27, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "28, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "29, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "30, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "31, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "32, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "33, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "34, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "35, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "36, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "37, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "38, 29": {
+          "floor": "floorandground:tile_216"
+        },
+        "39, 29": {
+          "floor": "floorandground:tile_217"
+        },
+        "19, 15": {
+          "object": "floorandground:tile_148",
+          "impassable": true
+        },
+        "13, 15": {
+          "object": "floorandground:tile_928",
+          "impassable": true
+        },
+        "11, 15": {
+          "object": "floorandground:tile_930",
+          "impassable": true
+        },
+        "6, 15": {
+          "object": "floorandground:tile_929",
+          "impassable": true,
+          "above_floor": "modern_office:tile_247"
+        },
+        "6, 10": {
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_198"
+        },
+        "11, 10": {
+          "object": "floorandground:tile_722",
+          "impassable": true
+        },
+        "13, 10": {
+          "object": "floorandground:tile_720",
+          "impassable": true
+        },
+        "18, 10": {
+          "object": "floorandground:tile_721",
+          "impassable": true
+        },
+        "20, 8": {
+          "object": "floorandground:tile_722",
+          "impassable": true,
+          "above_floor": "modern_office:tile_167"
+        },
+        "22, 8": {
+          "object": "floorandground:tile_720",
+          "impassable": true,
+          "above_floor": "modern_office:tile_192"
+        },
+        "32, 8": {
+          "object": "floorandground:tile_721",
+          "impassable": true,
+          "above_floor": "modern_office:tile_199"
+        },
+        "24, 14": {
+          "object": "floorandground:tile_148",
+          "impassable": true
+        },
+        "11, 3": {
+          "impassable": true
+        },
+        "12, 3": {
+          "impassable": true
+        }
+      }
+    }
+  ]
+}
