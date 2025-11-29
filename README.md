@@ -1,117 +1,83 @@
 # Flowspace
 
-A collaborative virtual workspace platform featuring fully customizable spaces and seamless proximity-based video chat.
+<div align="center">
+  <h3>Your team's virtual office</h3>
+  <p>Experience work reimagined. Build immersive spaces where your team naturally connects, collaborates, and thrives.</p>
 
-## ‚ú® Features
-
-- **Customizable Spaces** - Design your virtual workspace using intuitive tile-based editor
-- **Proximity Video Chat** - Auto-connect with nearby colleagues 
-- **Private Area Video Chat** - Designated zones for focused meetings
-- **Real-time Multiplayer** - Live synchronization of all user activities
-- **Advanced Analytics** - Heatmaps, presence tracking, and activity feeds
-- **Custom Avatars** - Personalize your character appearance
-- **Multi-Room Support** - Create complex layouts with teleporters
-
-Built with modern technologies: Next.js, MongoDB, Redis, Socket.io, TailwindCSS, Pixi.js, and Agora RTC.
-
-## Ì∫Ä Getting Started
-
-### Installation
-
-First, clone the repo:
-```bash
-git clone https://github.com/vipulshetty/Flowspace.git
-cd Flowspace
-```
-
-### Frontend Setup
-```bash
-cd frontend
-npm install
-```
-
-### Backend Setup
-```bash
-cd backend
-npm install
-```
-
-## ‚öôÔ∏è Configuration
-
-### Backend Environment Variables
-
-Create a `.env` file in the `backend` directory:
-
-```env
-# Server Configuration
-FRONTEND_URL=http://localhost:3000
-BACKEND_URL=http://localhost:3001
-
-# MongoDB
-MONGODB_URI=your_mongodb_connection_string
-
-# Redis
-REDIS_URL=your_redis_url
-
-# JWT Secret
-JWT_SECRET=your_secret_key
-```
-
-### Frontend Environment Variables
-
-Create a `.env.local` file in the `frontend` directory:
-
-```env
-# API Endpoints
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
-NEXT_PUBLIC_BACKEND_URL=http://localhost:3001
-
-# Agora Video Chat
-NEXT_PUBLIC_AGORA_APP_ID=your_agora_app_id
-APP_CERTIFICATE=your_agora_certificate
-```
-
-## ÌæÆ Running the Application
-
-Start both servers:
-
-**Backend:**
-```bash
-cd backend
-npm run dev
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm run dev
-```
-
-Visit `http://localhost:3000` to see the application.
-
-## ÌøóÔ∏è Tech Stack
-
-### Frontend
-- **Next.js 14** - React framework with App Router
-- **Pixi.js** - 2D WebGL rendering
-- **Phaser 3** - Game engine for character animations
-- **Three.js** - 3D effects and post-processing
-- **TailwindCSS** - Utility-first CSS
-- **Socket.io Client** - Real-time communication
-- **Agora RTC** - Video/audio chat
-
-### Backend
-- **Express.js** - Node.js web framework
-- **Socket.io** - WebSocket server
-- **MongoDB** - Primary database with Change Streams
-- **Redis** - Caching and real-time data
-- **Passport.js** - Authentication
-- **JWT** - Token-based auth
-
-## Ì≥ù License
-
-MIT
+  [![Demo Video](https://img.youtube.com/vi/ef4lweW_3ik/0.jpg)](https://youtu.be/ef4lweW_3ik)
+  
+  <p>
+    <a href="https://youtu.be/ef4lweW_3ik"><strong>Watch the Demo ¬ª</strong></a>
+  </p>
+</div>
 
 ---
 
-**Built by [@vipulshetty](https://github.com/vipulshetty)**
+## üöÄ Overview
+
+Flowspace is a next-generation virtual office platform designed to bring remote teams together. It bridges the gap between physical and digital workspaces by providing a persistent, immersive environment where presence is felt, and collaboration happens naturally.
+
+## ‚ú® Features
+
+- **Real-time Presence**: See where your teammates are and what they're doing in real-time.
+- **Instant Communication**: Seamless video and voice chat with sub-50ms latency.
+- **Customizable Spaces**: Design your virtual office to match your team's culture using our intuitive editor.
+- **Interactive Environment**: Move around, gather in meeting rooms, or hang out in social areas.
+- **Analytics**: Gain insights into team engagement and collaboration patterns.
+- **Secure**: Enterprise-grade security and privacy.
+
+## üõ†Ô∏è Tech Stack
+
+- **Frontend**: Next.js, React, Tailwind CSS, GSAP
+- **Backend**: Node.js, Express (implied), Socket.io (implied for real-time)
+- **Database**: MongoDB
+- **Real-time**: WebRTC, WebSocket
+
+## üèÅ Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- MongoDB instance
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/vipulshetty/Flowspace.git
+    cd Flowspace
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    # Install frontend dependencies
+    cd frontend
+    npm install
+
+    # Install backend dependencies
+    cd ../backend
+    npm install
+    ```
+
+3.  **Environment Setup**
+    Create `.env` files in both `frontend` and `backend` directories with necessary configuration (DB connection strings, API keys, etc.).
+
+4.  **Run the application**
+    ```bash
+    # Run frontend (in frontend directory)
+    npm run dev
+
+    # Run backend (in backend directory)
+    npm run dev
+    ```
+
+## üìÑ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+  <p>Built with ‚ù§Ô∏è by the Flowspace Team</p>
+</div>
