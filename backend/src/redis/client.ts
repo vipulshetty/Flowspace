@@ -2,10 +2,14 @@ import Redis from "ioredis";
 
 const redisUrl = process.env.REDIS_URL ?? "redis://127.0.0.1:6379";
 
+// Check if using TLS (rediss://)
+const useTLS = redisUrl.startsWith("rediss://");
+
 const redis = new Redis(redisUrl, {
   lazyConnect: true,
   maxRetriesPerRequest: 1,
   retryStrategy: (times) => Math.min(times * 200, 2000),
+  tls: useTLS ? { rejectUnauthorized: false } : undefined,
 });
 
 let isReady = false;
